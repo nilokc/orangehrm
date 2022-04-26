@@ -15,11 +15,11 @@ public class LoginTest_OrangeHRM {
 		
 		//open web chrome browser
 		System.setProperty("webdriver.chrome.driver","/Users/nokcu/Desktop/DRIVERS_/chromedriver");
-		//ChromeDriver driver=new ChromeDriver();  //Launch the chrome browser
+		ChromeDriver driver=new ChromeDriver();  //Launch the chrome browser
 		
 		//open the web firefox browser
-		System.setProperty("webdriver.gecko.driver","/Users/nokcu/Desktop/DRIVERS_/geckodriver");
-		WebDriver driver=new FirefoxDriver(); 
+		//System.setProperty("webdriver.gecko.driver","/Users/nokcu/Desktop/DRIVERS_/geckodriver");
+		//WebDriver driver=new FirefoxDriver(); 
 		
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/");
